@@ -70,7 +70,7 @@ pcall(function() CoreGui = game:GetService("CoreGui") end)
 -- ============================================================
 local myTab
 local ok, err = pcall(function()
-    myTab = shared.CreateTab("Fake PC", "emmettkyle102714-lab/Enito-odh-icon-for-odh/refs/heads/main/image.png")
+    myTab = shared.CreateTab("Fake PC", "/emmettkyle102714-lab/Enito-odh-icon-for-odh/refs/heads/main/image.png.JPG")
 end)
 
 if not ok or not myTab then
